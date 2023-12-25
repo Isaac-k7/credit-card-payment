@@ -5,6 +5,9 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(appBar: AppBar(title: const Text('CREDIT CARD PAYMENT'),),);
+    return const Column(
+      children: [
+      ],
+    );
   }
 }
